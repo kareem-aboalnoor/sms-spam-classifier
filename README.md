@@ -26,7 +26,7 @@ The model is trained using a **multinomial naive bayes classifier** and deployed
 1. Download the repository  
 2. Run the app with streamlit:  
    ```bash
-   streamlit run app.py
+   streamlit run streamlit_app.py
 
 
 
