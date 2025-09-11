@@ -1,28 +1,21 @@
 # 📩 SMS Spam Classifier
 
-A simple **Streamlit web app** that classifies SMS messages as **Spam** or **Ham** (Not Spam) using a **Multinomial Naive Bayes** model trained on the **SMS Spam Collection Dataset**.
+A simple **Machine Learning** project that classifies SMS messages as **Spam** or **Ham** using a **Multinomial Naive Bayes** model and an interactive **Streamlit** web app.
 
 ---
 
 ## 🚀 Features
-- Classifies messages as **Spam** or **Ham** in real-time.
-- Clean and simple user interface with Streamlit.
-- Pre-trained **Multinomial Naive Bayes** model.
-- Built with **Python, scikit-learn, and joblib**.
+- Classifies SMS messages into **Spam** or **Ham**.
+- Built with **Python, scikit-learn, and Streamlit**.
+- Clean and simple user interface.
+- Real-time predictions.
 
 ---
 
-## 📊 Dataset
-The model was trained on the public dataset:  
-**[SMS Spam Collection Dataset](https://archive.ics.uci.edu/ml/datasets/sms+spam+collection)**  
-- 5574 messages in total  
-- Labels: `ham` (legit) and `spam` (unwanted messages)  
+## 🛠️ Installation & Usage
 
----
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
 
-## 🛠️ Installation
-
-1. Clone the repo:
-```bash
-git clone https://github.com/your-username/sms-spam-classifier.git
-cd sms-spam-classifier
