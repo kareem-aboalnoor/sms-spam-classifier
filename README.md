@@ -1,24 +1,31 @@
-📩 SMS Spam Classifier
-This project builds a machine learning model to classify SMS messages as Spam or Ham.
+📩 SMS Spam Classifier  
 
-It includes:
+This project builds a **Machine Learning model** to classify SMS messages into **Spam** or **Ham**.  
+The model is trained using a **Multinomial Naive Bayes classifier** and deployed with a **Streamlit web app** for real-time testing.  
 
-- Data preprocessing
-- Exploratory Data Analysis (EDA)
-- Feature engineering
-- Model training & evaluation
-- Building a Streamlit web app for real-time predictions
+---
 
-Tools
-- Python, Pandas, NumPy  
-- Scikit-learn  
-- Streamlit  
-- Jupyter Notebook  
+### 🔎 Project Workflow  
+- **Data preparation** → loading and organizing the dataset.  
+- **EDA (Exploratory Data Analysis)** → understanding the balance between spam and ham messages.  
+- **Feature extraction** → converting text messages into numerical features using a vectorizer.  
+- **Model training & evaluation** → training Naive Bayes and testing accuracy.  
+- **Deployment** → creating an interactive Streamlit app for instant predictions.  
 
-How to Run
+---
+
+### 🛠 Tools & Libraries  
+- **Python, Pandas, NumPy** → data handling  
+- **Scikit-learn** → vectorizer + Naive Bayes model  
+- **Streamlit** → simple web interface  
+- **Jupyter Notebook** → development and evaluation  
+
+---
+
+### ▶️ How to Run  
 1. Download the repository  
-2. Install the required libraries  
-3. Run the Streamlit app:  
+2. Run the app with Streamlit:  
    ```bash
-   streamlit run app.py
+   streamlit run streamlit_app.py
+
 
